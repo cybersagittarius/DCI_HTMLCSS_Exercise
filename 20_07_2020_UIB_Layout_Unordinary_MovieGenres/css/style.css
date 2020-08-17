@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;         
+}
+
+.flexBox>* {
+    width: 500px;
+    height: 100px;
+    flex-grow: 1;
+    border: 3px dotted palevioletred;
+}
+
+.action {
+    background-color: dodgerblue;       
+}
+
+.thriller {
+    background-color: rgb(207, 10, 191);
+    flex-grow: 3;
+}
+.comedy {
+    background-color: rgb(251, 255, 30);
+    flex-grow: 3;
+}
+
+.horror {
+    background-color:rgb(241, 134, 92);
+    color: white;       
+}
+
+.drama {
+    background-color: rgb(19, 226, 19);      
+}
+
+.romance {
+    background-color: red; 
+    flex-grow: 3;
+}
